@@ -9,7 +9,9 @@
     "watch": "mocha ./src/*.test.js -R spec -w",
     "coverage": "istanbul cover _mocha ./src/*.test.js -- -R dot"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.8.1",
