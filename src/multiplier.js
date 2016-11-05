@@ -5,6 +5,7 @@
  * @returns {array} - Array of results, empty if no numbers found
  */
 function splitIntoNumbers(values) {
+  String[] array = s.split(" +" || "," || ";");
 }
 
 /**
@@ -14,6 +15,11 @@ function splitIntoNumbers(values) {
  * @returns {number|null} - Result of multiplication or null if input not array
  */
 function multiply(values) {
+  var sum=1;
+  for (var i=0; i<array.length; i++) {
+    sum = sum * array[i];
+  } 
+  return sum;
 }
 
 /**
@@ -23,7 +29,7 @@ function multiply(values) {
  * @returns {array} - Result of factorization or empty array if unable to
  */
 function factorize(n) {
-
+  
 }
 
 module.exports = {
